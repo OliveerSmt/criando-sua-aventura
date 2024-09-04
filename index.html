@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>A Caverna das Almas Perdidas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpeg" alt="">
+            <p>Certo dia, ao entardecer do sol, você decide explorar uma caverna local que muitos já ouviram relatos de pessoas que foram lá e nunca retornaram... 
+                Você está parado na entrada da caverna. O ar é frio e úmido e você sente um arrepio na espinha. Você:
+            </p>
+            <button class="btn-proximo" data-proximo="1"> Entra na caverna imediatamente</button>
+            <button class="btn-proximo" data-proximo="2"> Explora a área ao redor da caverna antes de entrar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide entrar na caverna sem hesitar. A escuridão é total e você liga sua lanterna, o caminho se torna estreito e sinuoso. Após caminhar por alguns minutos, você encontra um esqueleto.</p>
+            <button class="btn-proximo" data-proximo="3">Examinar o esqueleto</button>
+            <button class="btn-proximo" data-proximo="4"> Ligar para alguém informando sua ausência. Aparentemente você irá demorar na caverna... </button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide explorar a área ao redor da caverna.
+                Enquanto caminha, você encontra uma velha cabana abandonada. Dentro, você encontra um diário empoeirado que pertenceu a um explorador anterior que menciona a existência de uma passagem secreta na caverna que leva a um tesouro escondido</p>
+                <button class="btn-proximo" data-proximo="5">Entrar na caverna e procurar a passagem secreta</button>
+            <button class="btn-proximo" data-proximo="6">Continuar explorando ao redor da caverna </button>
+
+           </div>
+        <div class="passo" id="passo-3">
+            <p>Examinando o esqueleto, vc vê que ele possui um papel velho e antigo com uma chave.
+                No papel diz: "Atenção, sua soberba e mentira o guiarão para a escuridão, mas a humildade e determinação o recompensarão".</p>
+            <button class="btn-proximo" data-proximo="7">Continuar seguindo</button>
+
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você eatá muito longe da civilização, não há nenhum sinal de rede</p>
+            <button class="btn-proximo" data-proximo="3">Decidir examinar o esqueleto</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Decidido a desvendar o mistério, você entra na caverna com o diário em mãos. A escuridão é total, e você liga sua lanterna. O caminho é estreito e sinuoso. Após caminhar por encontra uma porta antiga, talvez seja a passagem secreta...</p>
+            <button class="btn-proximo" data-proximo="8">Abrir a porta</button></button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p> Você decide explorar mais ao redor da caverna, mas acaba caindo em um buraco cheio de espinhos, perfurando todo o seu corpo e te matando </p>
+            
+            
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p> Você segue em frente e encontra uma sala com uma lama totalmente dificil de se mover, nota um cheiro estranho e olhando ao redor vê um monstro do tamanho de seus pesadelos sombrios </p>
+            <button class="btn-proximo" data-proximo="9">Rezar</button>
+            <button class="btn-proximo" data-proximo="10">Correr desesperadamente</button>
+            
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p> Você estava certo, essa era a passagem secreta mencionada no livro, ela leva para um túnel brilhante. Porém, há um demônio protegendo-o, você precisa achar uma forma de distraí-lo </p>
+            <button class="btn-proximo" data-proximo="11">Jogar uma pedra</button>
+          <button class="btn-proximo" data-proximo="12">Ir andando pelos escombros da caverna</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Sua reza não impediu o monstro de arrancar seus ossos e te devorar. </p>   
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você teve dificuldades para correr devido à lama, mas logo conseguiu despistar o monstro e encontrou uma nova porta, dessa vez a mesma estava cheia de sangue</p>
+            <button class="btn-proximo" data-proximo="13">Abrir a porta</button>
+            <button class="btn-proximo" data-proximo="14">Procurar outro caminho</button> 
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p> O demônio viu a direção que a pedra veio e te atacou.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ao ir pelos escombros, o demônio não o vê e você consegue despista-lo </p>
+            <button class="btn-proximo" data-proximo="7">Continuar seguindo</button>
+            </div>
+
+            <div class="passo" id="passo-13">
+                <img src="aventura concluída-passo12.jpeg" alt="">
+                <p>Você chega em uma sala repleta de itens valiosos e moedas antigas que valeriam uma fortuna.
+                    Você se saiu bem nessa aventura! </p>
+            </div>
+
+            <div class="passo" id="passo-14">
+                <p>Enquanto procurava outro caminho, o monstro que você havia despistado te encontrou e o matou.</p>
+                </div>
+                
+                            
+            </main>
+    <script src="script.js"></script>
+</body>
+</html>
